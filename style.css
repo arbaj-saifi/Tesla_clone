@@ -382,3 +382,50 @@ hr{
     
     margin: 10px auto;
 }
+@media (max-width:768px){
+    footer{
+        width: 100%;
+        height: 300px;
+        padding: 20px;
+    }
+    .footer-first{
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .footer-first p{
+        font-size: 0.7rem;
+        font-weight: 300;
+        line-height: 20px;
+        color: #000000;
+    }        
+   .footer-second{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .footer-second ul{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        gap: 5px;
+    }
+    .footer-second ul li{
+        text-decoration: none;
+        color: #000000;
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+
+}
