@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    /* top: 0; */
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-2-Desktop-US.png  ');
+    height: 100vh;
+    background-size: cover;
+    
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    /* top: 0; */
+    z-index: 1000;
+    background-color: #3b11f54b;
+}
+.logo{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo svg{
+    width: 100px;
+    height: 50px;
+    fill: #ffffff;
+}
+.middle{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.middle ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+}
+.middle ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.right{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.right img{
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+}
+.right svg{
+    width: 30px;
+    height: 20px;
+    fill: #ffffff;
+}
+@media (max-width:768px){
+    nav{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: space-between; */
+    }
+    .main{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo svg{
+        width: 50px;
+        height: auto;
+    }
+    .middle{
+        display: none;
+    }
+    
+
+}
+.cantainer-first{
+    width: 100%;
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promotional-Carousel-Cybertruck-Desktop-US.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+   /* align-items: center; */
+   justify-content: space-between;
+    /* padding-top: 50px; */
+    padding: 20px;
+   
+    position: relative;
+    
+}
+@media (max-width:768px){
+    .cantainer-first{
+        width: 100%;
+        height: 400px;
+    }
+    
+
+}
+
+.text-overlow{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    /* margin: 20px; */
+    padding: 0 10px;
+    padding-top: 50px;
+    line-height: 40px;
+    color: white;
+    
+}
+.text-overlow h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.text-overlow h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.first-button {
+  width: 130px;
+  height: 40px;
+  color: #fcfbfb;
+  background-color: #6969a5;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.first-button:hover {
+  background-color: #2626e9;
+}
+
+.second-button {
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.5px solid #ffffff;
+  border-radius: 23px;
+  font-size: 15px;
+}
+
+.second-button:hover {
+  background-color: blue;
+  color: white;
+}
+.cantainer-second{
+    width: 100%;
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-S-Desktop.png  ');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+   /* align-items: center; */
+   justify-content: space-between;
+    /* padding-top: 50px; */
+    padding: 20px;
+   
+    position: relative;
+   
+}
+@media (max-width:768px){
+    .cantainer-second{
+        width: 100%;
+        height: 400px;
+    }
+    
+
+}
+.cantainer-third{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Solar-Roof-Desktop.png ');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+   /* align-items: center; */
+   justify-content: space-between;
+    /* padding-top: 50px; */
+    padding: 20px;
+   
+    position: relative;
+   
+}
+@media (max-width:768px){
+    .cantainer-third{
+        width: 100%;
+        height: 400px;
+    }
+    
+
+}
+.cantainer-fourth{
+    width: 100%;
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-S-Desktop.png  ');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+   /* align-items: center; */
+   justify-content: space-between;
+    /* padding-top: 50px; */
+    padding: 20px;
+   
+    position: relative;
+   
+    
+}
+@media (max-width:768px){
+    .cantainer-fourth{
+        width: 100%;
+        height: 400px;
+    }
+    
+
+}
+.cantainer-fifth{
+    width: 100%;
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png  ');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+   /* align-items: center; */
+   justify-content: space-between;
+    /* padding-top: 50px; */
+    padding: 20px;
+   
+    position: relative;
+   
+}
+@media (max-width:768px){
+    .cantainer-fifth{
+        width: 100%;
+        height: 400px;
+    }
+    
+
+}
+.cantainer-sixth{
+    width: 100%;
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Hero-US-Desktop-v4.jpg  ');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+   /* align-items: center; */
+   justify-content: space-between;
+    /* padding-top: 50px; */
+    padding: 20px;
+   
+    position: relative;
+}
+@media (max-width:768px){
+    .cantainer-sixth{
+        width: 100%;
+        height: 400px;
+    }
+    
+
+}
+footer{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* color: #ffffff; */
+    
+}
+.footer-first{
+    width: 65%;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-first p{
+    font-size: 0.65rem;
+    font-weight: 300;
+    line-height: 20px;
+    color: #000000;
+}
+.footer-second{
+    width: 70%;
+    height: 50px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer-second ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 15px;
+}
+.footer-second ul li{
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+.arbaj{
+    width: 100%;
+    
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.arbaj h1{
+    font-size: 18px;
+    font-weight: 300;
+    color: #474646;
+    
+}
+.arbaj strong{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000;
+}
+.arbaj a{
+    list-style: none;   
+    text-decoration: none;
+}
+hr{
+    width: 70%;
+
+    height: 1px;
+    
+    margin: 10px auto;
+}
