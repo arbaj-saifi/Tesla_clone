@@ -114,3 +114,13 @@ link4.addEventListener('mouseleave', function(){
   menu4.style.opacity = '0';
   setTimeout(() => menu4.style.display = 'none', 500);
 });
+
+
+const loading = document.querySelector('.cantainer1');
+document.addEventListener('DOMContentLoaded', function () {
+  setTimeout(() => {
+    loading.style.display = 'none';
+  }, 3000); // Adjust the time as needed
+    
+    
+});

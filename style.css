@@ -727,3 +727,34 @@ hr{
     left: 0;
   transition: opacity 0.5s ease-in-out; 
 }
+.cantainer1{
+    width: 100vw;
+    z-index: 10000;
+    /* border-radius: 20px; */
+    position: fixed;
+    /* margin: 5rem auto; */
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loader{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    border: 1.5rem solid #494848;
+    height: 200px;
+    width: 200px;
+    border-top: 1.5rem solid #21ff03;
+    animation: loader 1s infinite linear;
+}
+@keyframes loader{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
